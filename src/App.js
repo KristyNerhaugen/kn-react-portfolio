@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+// Error in terminal that "logo is defined but never used", but if the line below is removed, no images render on the page
 import logo from "./logo.svg";
 import "./App.css";
 
