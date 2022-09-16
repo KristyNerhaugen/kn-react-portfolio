@@ -47,12 +47,18 @@ const Portfolio = () => {
       <h1 className="flex-row">Portfolio of Projects</h1>
       <div>
         {projects.map((project, i) => (
-          <img
-            src={require(`../../assets/images/${project.name}.png`).default}
-            alt={project.name}
-            className="img-thumbnail mx-1"
-            key={project.name}
-          />
+          <div>
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
+            <a href={project.link}>{project.name}</a>
+            <a href={project.github}>Github Repository</a>
+            <img
+              src={require(`../../assets/images/${project.name}.png`).default}
+              alt={project.name}
+              className="img-thumbnail mx-1"
+              key={project.name}
+            />
+          </div>
         ))}
       </div>
     </section>
