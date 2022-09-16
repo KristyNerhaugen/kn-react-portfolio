@@ -10,9 +10,13 @@ function Page(props) {
   const renderPage = (arg) => {
     if (arg === "Portfolio") {
       return <Portfolio />;
+    } else if (arg === "Contact") {
+      return <Contact />;
+    } else if (arg === "Resume") {
+      return <Resume />;
+    } else {
+      return <About />;
     }
-    //add additonal if else statements
-    //end with an else statment to return the About
   };
 
   return <div>{renderPage(activePage)}</div>;
