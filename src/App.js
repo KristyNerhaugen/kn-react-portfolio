@@ -6,7 +6,12 @@ import Page from "./components/Page";
 import "./App.css";
 
 function App() {
-  const [pageList] = useState(["About", "Portfolio", "Contact", "Resume"]);
+  const [pageList] = useState([
+    "About Kristy",
+    "Portfolio",
+    "Contact",
+    "Resume",
+  ]);
   const [activePage, setActivePage] = useState(pageList[0]);
 
   return (
@@ -17,7 +22,7 @@ function App() {
         <Page activePage={activePage} />
       </main>
 
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
