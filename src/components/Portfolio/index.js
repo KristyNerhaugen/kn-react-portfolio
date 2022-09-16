@@ -54,15 +54,19 @@ const Portfolio = () => {
   ]);
 
   return (
-    <section>
+    <section className="flex-row">
       <h1 className="flex-row">Portfolio of Projects</h1>
       <div>
         {projects.map((project, i) => (
           <div key={i}>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <a href={project.link}>{project.name}</a>
-            <a href={project.github}>Github Repository</a>
+            <p>
+              <a href={project.link}>{project.name}</a>
+            </p>
+            <p>
+              <a href={project.github}>Github Repository</a>
+            </p>
             <img src={project.image} alt={project.name} />
           </div>
         ))}

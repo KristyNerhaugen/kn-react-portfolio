@@ -6,12 +6,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #b12704;
+  --primary: #00A6FB;
+  --secondary: #0582Ca;
+  --tertiary: #006494;
   --light: #fafafa;
-  --dark: #230e83;
-  --darker: #111111;
+  --dark: #003554;
+  --darker: #051923;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -91,7 +91,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--tertiary);
 }
 
 header a {
@@ -147,6 +147,7 @@ input:focus {
 
 li {
   list-style: none;
+  padding: 10px;
 }
 
 nav a:hover {
@@ -174,6 +175,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .space-between {
