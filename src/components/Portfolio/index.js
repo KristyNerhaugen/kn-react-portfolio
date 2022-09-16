@@ -58,7 +58,7 @@ const Portfolio = () => {
       <h1 className="flex-row">Portfolio of Projects</h1>
       <div>
         {projects.map((project, i) => (
-          <div>
+          <div key={i}>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <a href={project.link}>{project.name}</a>
