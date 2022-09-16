@@ -1,8 +1,8 @@
-// ContactForm function is taken directly from the lessons in module 20 on BootcampSpot
+// ContactForm function is taken directly from the lessons in module 20 on Bootcamp Spot
 import React, { useState } from "react";
 
-// helper needs to be set up
-//import { validateEmail } from '../../utils/helpers';
+// connect to helper
+import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
