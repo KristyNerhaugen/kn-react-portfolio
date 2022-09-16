@@ -2,19 +2,19 @@ import React, { useState } from "react";
 
 function Navigation() {
   return (
-    <header>
+    <header className="flex-row px-1">
       <nav>
         <ul className="flex-row">
-          <li>
+          <li className="mx-2">
             <a href="#about">About Kristy</a>
           </li>
-          <li>
+          <li className="mx-2">
             <a href="#portfolio">Portfolio</a>
           </li>
-          <li>
+          <li className="mx-2">
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          <li className="mx-2">
             <a href="#resume">Resume</a>
           </li>
         </ul>

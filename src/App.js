@@ -9,8 +9,9 @@ import "./App.css";
 function App() {
   return (
     <div>
+      <h1>Welcome to Kristy Nerhaugen's Portfolio</h1>
       <Navigation></Navigation>
-      <h1>Kristy Nerhaugen's Portfolio</h1>
+
       <main>
         <About></About>
         <Project></Project>
