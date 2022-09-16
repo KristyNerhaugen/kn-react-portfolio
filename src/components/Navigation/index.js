@@ -4,7 +4,11 @@ import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 import Resume from "../Resume";
 
-function Navigation() {
+function Navigation(props) {
+  const handleClick = (item) => {
+    return item;
+  };
+
   return (
     <nav>
       <ul className="flex-row">
@@ -12,13 +16,13 @@ function Navigation() {
           <a href="#about">About Kristy</a>
         </li>
         <li className="mx-2">
-          <a href="#portfolio">Portfolio</a>
+          <span onClick={() => handleClick("Portfolio")}>Portfolio</span>
         </li>
         <li className="mx-2">
-          <a href="#contact">Contact</a>
+          <span onClick={() => handleClick("Contact")}>Contact</span>
         </li>
         <li className="mx-2">
-          <a href="#resume">Resume</a>
+          <span onClick={() => handleClick("Resume")}>Resume</span>
         </li>
       </ul>
     </nav>
