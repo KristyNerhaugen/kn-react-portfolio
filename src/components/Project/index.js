@@ -1,13 +1,9 @@
 import React from "react";
 import screenshot from "../../assets/images/BoozyBooks.png";
+import Portfolio from "../Portfolio";
 
 function Project(props) {
-  const currentProject = {
-    name: "Boozy Books",
-    description: "Group Project #1",
-    link: "https://kristynerhaugen.github.io/Boozy-Books/",
-    github: "https://github.com/KristyNerhaugen/Boozy-Books",
-  };
+  const currentProject = props;
   return (
     <section>
       <h1>{currentProject.name}</h1>

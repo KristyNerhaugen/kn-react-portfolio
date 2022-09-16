@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import screenshot from "../../assets/images/BoozyBooks.png";
 
-const ProjectList = ({ name }) => {
-  const [project] = useState([
+const Portfolio = () => {
+  const [projects] = useState([
     {
       name: "BoozyBooks",
       description: "Group Project #1",
@@ -17,22 +17,21 @@ const ProjectList = ({ name }) => {
     },
   ]);
 
-  const currentProject = project.filter((project) => project.name === name);
-
   return (
-    <div>
-      <div className="flex-row">
-        {currentProject.map((image, i) => (
+    <section>
+      <h1 className="flex-row">Portfolio of Projects</h1>
+      <div>
+        {projects.map((project, i) => (
           <img
-            src={require(`../../assets/images/${name}.png`).default}
-            alt={image.name}
+            src={require(`../../assets/images/${project.name}.png`).default}
+            alt={project.name}
             className="img-thumbnail mx-1"
-            key={image.name}
+            key={project.name}
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default ProjectList;
+export default Portfolio;
