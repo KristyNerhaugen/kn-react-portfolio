@@ -14,9 +14,17 @@ function App() {
   ]);
   const [activePage, setActivePage] = useState(pageList[0]);
 
+  const [activePageSelected, setPageSelected] = useState(false);
+
   return (
     <div>
-      <Header setActiveNav={setActivePage} pageList={pageList} />
+      <Header
+        setActivePage={setActivePage}
+        pageList={pageList}
+        activePageSelected={activePageSelected}
+        setPageSelected={setPageSelected}
+        activePage={activePage}
+      />
 
       <main>
         <Page activePage={activePage} />
