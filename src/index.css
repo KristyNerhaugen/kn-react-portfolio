@@ -295,5 +295,5 @@ a {
 }
 
 .highlight {
-  color:rgb(228, 46, 1)
+  color:var(--primary);
 }
