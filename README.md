@@ -16,7 +16,7 @@
 
 ## Installation
 
-### To use this application, access it using the deployed link here: []().
+### To use this application, access it using the deployed link here: [KN-React-Portfolio](https://kristynerhaugen.github.io/kn-react-portfolio/).
 
 ## Usage
 
