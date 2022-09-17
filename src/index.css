@@ -147,7 +147,7 @@ input:focus {
 
 li {
   list-style: none;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav a:hover {
@@ -292,4 +292,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.highlight {
+  color:rgb(228, 46, 1)
 }
