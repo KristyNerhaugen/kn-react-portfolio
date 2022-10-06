@@ -4,10 +4,17 @@ import PARKOUR from "../../assets/images/PARKOUR.png";
 import noteTaker from "../../assets/images/KNNoteTaker.png";
 import techBlog from "../../assets/images/KNTechBlog.png";
 import textEditor from "../../assets/images/KNTextEditor.png";
-import passwordGenerator from "../../assets/images/PasswordGenerator.png";
+import whereWereYouWhen from "../../assets/images/PasswordGenerator.png";
 
 const Portfolio = () => {
   const [projects] = useState([
+    {
+      name: "Where Were You When",
+      description: "Group Project #3",
+      link: "https://where-were-you-when.herokuapp.com/",
+      github: "https://github.com/McAmy2001/Where-Were-You-When",
+      image: whereWereYouWhen,
+    },
     {
       name: "PARKOUR",
       description: "Group Project #2",
@@ -43,13 +50,6 @@ const Portfolio = () => {
       link: "https://hidden-gorge-32319.herokuapp.com/",
       github: "https://github.com/KristyNerhaugen/kn-text-editor",
       image: textEditor,
-    },
-    {
-      name: "Password Generator",
-      description: "Generate a random password.",
-      link: "https://kristynerhaugen.github.io/password-generator/",
-      github: "https://github.com/KristyNerhaugen/password-generator",
-      image: passwordGenerator,
     },
   ]);
 
