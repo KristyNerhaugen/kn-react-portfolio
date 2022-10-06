@@ -4,7 +4,7 @@ import PARKOUR from "../../assets/images/PARKOUR.png";
 import noteTaker from "../../assets/images/KNNoteTaker.png";
 import techBlog from "../../assets/images/KNTechBlog.png";
 import textEditor from "../../assets/images/KNTextEditor.png";
-import whereWereYouWhen from "../../assets/images/PasswordGenerator.png";
+import whereWereYouWhen from "../../assets/images/whereWereYouWhen.png";
 
 const Portfolio = () => {
   const [projects] = useState([
