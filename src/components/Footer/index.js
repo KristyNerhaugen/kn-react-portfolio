@@ -9,11 +9,8 @@ function Footer() {
           <a href="https://github.com/KristyNerhaugen">GitHub</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/">Linkedin</a>
-        </li>
-        <li>
-          <a href="https://stackoverflow.com/users/18797386/kristy-nerhaugen?tab=profile">
-            Stack Overflow
+          <a href="https://linkedin.com/in/kristy-nerhaugen-a7a868252">
+            LinkedIn
           </a>
         </li>
       </ul>
