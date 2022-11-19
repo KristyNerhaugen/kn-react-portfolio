@@ -6,7 +6,7 @@ function Resume() {
       <h1>Kristy's Resume</h1>
       <h3>
         {" "}
-        <a href={require("../../assets/KristyNerhaugenResume.pdf")} download>
+        <a href={require("../../assets/NerhaugenResume.pdf")} download>
           Download Kristy's resume here.
         </a>
       </h3>
