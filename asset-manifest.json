@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kn-react-portfolio/static/css/main.4f360086.css",
-    "main.js": "/kn-react-portfolio/static/js/main.a4485ba3.js",
+    "main.js": "/kn-react-portfolio/static/js/main.e9fd2d91.js",
     "static/js/787.acc22f26.chunk.js": "/kn-react-portfolio/static/js/787.acc22f26.chunk.js",
     "static/media/kristynerhaugen.png": "/kn-react-portfolio/static/media/kristynerhaugen.f9231521f390308b35b3.png",
     "static/media/whereWereYouWhen.png": "/kn-react-portfolio/static/media/whereWereYouWhen.b247131d3cae520a8684.png",
@@ -13,11 +13,11 @@
     "static/media/KNTextEditor.png": "/kn-react-portfolio/static/media/KNTextEditor.7debfdc2bafa67efaf6a.png",
     "index.html": "/kn-react-portfolio/index.html",
     "main.4f360086.css.map": "/kn-react-portfolio/static/css/main.4f360086.css.map",
-    "main.a4485ba3.js.map": "/kn-react-portfolio/static/js/main.a4485ba3.js.map",
+    "main.e9fd2d91.js.map": "/kn-react-portfolio/static/js/main.e9fd2d91.js.map",
     "787.acc22f26.chunk.js.map": "/kn-react-portfolio/static/js/787.acc22f26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f360086.css",
-    "static/js/main.a4485ba3.js"
+    "static/js/main.e9fd2d91.js"
   ]
 }
