@@ -10,21 +10,24 @@ const Portfolio = () => {
   const [projects] = useState([
     {
       name: "Where Were You When",
-      description: "Group Project #3",
+      description:
+        "Where Were You When is a MERN stack, single page application that allows a user to record and save their memories. The user can view their own past memories and will be reminded of a memory on the same date that they are using the application.",
       link: "https://where-were-you-when.herokuapp.com/",
       github: "https://github.com/McAmy2001/Where-Were-You-When",
       image: whereWereYouWhen,
     },
     {
       name: "PARKOUR",
-      description: "Group Project #2",
+      description:
+        "PARKOUR is an app designed to help parents and caregivers easily find and give reviews about parks and playgrounds. Once the user creates an account, they have the ability to write, edit and delete their own reviews. They can also comment on other reviews. If the user doesn’t want to make an account, they can still view park and playground reviews without the ability to comment or leave their own review.",
       link: "https://parkour-review.herokuapp.com/",
       github: "https://github.com/KristyNerhaugen/playground-rating-app",
       image: PARKOUR,
     },
     {
       name: "Boozy Books",
-      description: "Group Project #1",
+      description:
+        "Boozy Books is an application for book and drink lovers. This application uses two server side APIs, Google Books API and the Cocktail DB API to allow users to search for books and to discover new drinks to pair with books. Users can also store book titles in the To Be Read list that saves to the page and persists using client-side storage. ",
       link: "https://kristynerhaugen.github.io/Boozy-Books/",
       github: "https://github.com/KristyNerhaugen/Boozy-Books",
       image: boozyBooks,
