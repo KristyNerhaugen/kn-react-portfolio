@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-
-// connect to helper
-import { validateEmail } from "../../utils/helpers";
+import React from "react";
 
 function ContactForm() {
   return (
