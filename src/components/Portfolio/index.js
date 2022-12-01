@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import boozyBooks from "../../assets/images/BoozyBooks.png";
 import PARKOUR from "../../assets/images/PARKOUR.png";
 import noteTaker from "../../assets/images/KNNoteTaker.png";
-import techBlog from "../../assets/images/KNTechBlog.png";
+import techBlog from "../../assets/images/KNTechBlogNewStyle.png";
 import textEditor from "../../assets/images/KNTextEditor.png";
 import whereWereYouWhen from "../../assets/images/whereWereYouWhen.png";
 
